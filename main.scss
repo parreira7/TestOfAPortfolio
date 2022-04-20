@@ -1,0 +1,140 @@
+body {
+    background: #814C88;
+}
+
+.botaolinkinterno {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.listamenu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 0%;
+    padding: 1em;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 36px;
+    list-style-type: none;
+
+    
+}
+
+.apresentaçao {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    display: block ;
+    letter-spacing: .3em;
+
+}
+
+.apresentaçao h1{
+    font-size: 48px;
+    color: white;
+
+    span {
+        color: #491E49;
+    }
+}
+
+.apresentaçao img {
+    border-radius: 5%;
+    width: 30%;
+}
+
+.listamenu :hover{
+    color: #59B2B3;
+}
+
+.sobremim {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #491E49;
+    text-transform: uppercase;
+    margin-top: 2em;
+    letter-spacing: .3em;
+    font-size: 24px;
+}
+
+.conteudosobremim {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 0;
+    margin-top: 0;
+    text-transform: none;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+
+.conteudosobremim h1 {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .5px;
+    font-size: 32px;
+}
+
+.qualidades {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 24px;
+    letter-spacing: .3em;
+    color: #491E49;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+.listaqualidades ul {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 24px;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #59B2B3;
+    letter-spacing: .2em;
+}
+
+.listaqualidades li {
+    margin-left: -2em;
+    margin-bottom: 1.2em;
+}
+
+.listaqualidades li img {
+    width: 40px;
+    height: 40px;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-bottom: -.2em;
+}
+
+.linguagens h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    color: #491E49;
+    margin-top: 3em;
+}
+
+
+.linguagens ul{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    margin-left: 67em;
+    margin-top: 3em;
+    gap: 50px;
+
+}
